@@ -1,0 +1,6 @@
+{
+  "name": "Silent Co-Driver AI",
+  "description": "AI Race Engineer Copilot analyzing driver radio tone and correlating with lap times.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

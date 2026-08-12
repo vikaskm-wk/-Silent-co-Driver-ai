@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0B0D0F;
+  --surface: #111417;
+  --surface-2: #15191D;
+  --surface-3: #191E23;
+  --border: #292F35;
+  --border-subtle: #20252B;
+  --text-primary: #F2F4F7;
+  --text-secondary: #A7AFB9;
+  --text-muted: #707984;
+  --text-disabled: #525963;
+  --accent-red: #E53935;
+  --accent-red-hover: #F04A46;
+  --accent-indigo: #6366F1;
+  --success: #35C98A;
+  --warning: #E3A43B;
+  --error: #EF5350;
+}
+
+@theme {
+  --color-racing-red: #E53935;
+  --color-bright-red: #F04A46;
+  --color-calm: #35C98A;
+  --color-warning: #E3A43B;
+  --color-critical: #EF5350;
+  --color-indigo-accent: #6366F1;
+  --color-text-primary: #F2F4F7;
+  --color-text-secondary: #A7AFB9;
+  --color-text-muted: #707984;
+  --color-panel: #111417;
+  --color-panel-alt: #15191D;
+  --color-base: #0B0D0F;
+  --color-base-alt: #111417;
+  --color-border-dark: #292F35;
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', Courier, monospace;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Base element reset to ensure text is high-contrast light by default */
+table, th, td, p, span, h1, h2, h3, h4, h5, h6, label, button, input {
+  color: inherit;
+}
+
+
+
